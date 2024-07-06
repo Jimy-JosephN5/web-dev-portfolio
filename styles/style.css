@@ -25,6 +25,7 @@
   font-size: 20px;
   font-weight: 700;
   line-height: 27px;
+  cursor: pointer;
 }
 
 .section-title{
@@ -43,6 +44,14 @@
   background-image: url('../images/developer.png'), url('../images/header_bg.png');
   background-repeat: no-repeat;
   background-position: top left, bottom right;
+}
+
+hr{
+  margin-bottom: 25px;
+}
+
+.text-center{
+  text-align: center;
 }
 
 /* secondary backgroud */
@@ -111,6 +120,10 @@ nav ul li>a{
     text-align: left;
 }
 
+.banner .btn-primary{
+  margin-right: 30px;
+}
+
 .banner-description{
   color: rgb(117, 117, 117);
     font-family: Open Sans;
@@ -119,6 +132,7 @@ nav ul li>a{
     line-height: 30px;
     letter-spacing: 0%;
     text-align: left;
+    margin-bottom: 30px;
 }
 
 .banner-profile-pic{
@@ -190,4 +204,102 @@ main section{
 .skill-description{
   font-size: 13px;
   text-align: justify;
+}
+
+.resume .section-title{
+  margin-bottom: 113px;
+  color: rgb(24, 24, 24);
+}
+
+.resume-container{
+  display: flex;
+  gap: 90px;
+}
+
+.resume-column-title{
+  font-size: 25px;
+  color: rgb(71, 71, 71);
+  margin-bottom: 10px;
+}
+
+.experience{
+  margin-bottom: 30px;
+}
+
+.experience-title{
+  font-size: 20px;
+  font-weight: 700;
+  color:rgb(71, 71, 71);
+  margin-bottom: 7px;
+}
+
+.experience-subtitle{
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(117, 117, 117);
+  margin-bottom: 10px;
+}
+
+.experience-description{
+  color: rgb(117, 117, 117);
+  font-size: 14px;
+}
+
+.resume-download{
+  margin-top: 50px;
+}
+
+footer{
+  display: flex;
+  gap: 117px;
+  padding: 130px 230px;
+  background: rgb(255, 248, 243);;
+}
+
+.icons{
+  margin-top: 30px;
+}
+
+.footer-column{
+  width: 50%;
+  margin: auto 0;
+}
+
+.footer-column .section-title{
+  margin-bottom: 28px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+footer input[type="text"]{
+  height: 64px;
+  width: 461px;
+  border: none;
+  padding-left: 10px;
+  outline: none;
+  color: rgb(117, 117, 117) ;
+}
+footer input[type="email"]{
+  height: 64px;
+  width: 461px;
+  border: none;
+  padding-left: 10px;
+  outline: none;
+  color: rgb(117, 117, 117);
+}
+footer textarea{
+  height: 180px;
+  width: 461px;
+  border: none;
+  padding-left: 10px;
+  outline: none;
+  color: rgb(117, 117, 117);
+}
+
+.submit-btn{
+  margin-top: 24px;
 }
